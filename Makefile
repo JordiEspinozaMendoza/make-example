@@ -6,6 +6,6 @@ compile_file:
 upload_to_github:
 	echo "Subiendo a GitHub"
 	git add .
-	git commit -m $(commit_message)
+	git commit -m '$(commit_message)'
 	git push origin $(branch_name)
 
