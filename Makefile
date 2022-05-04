@@ -8,4 +8,6 @@ upload_to_github:
 	git add .
 	git commit -m '$(commit_message)'
 	git push origin $(branch_name)
-
+clean:
+	echo "Limpiando"
+	rm -rf $(input_file).o $(input_file)
